@@ -1,0 +1,57 @@
+Create a product requirements document (PRD) and basic wireframes for a Configuration Management system for KaneAI & Test Manager. This will focus on the ability to easily allocate configurations to test cases and test runs and maintain application updates and edits effectively.
+
+Key Components of the Assignment:
+Product Requirements Document (PRD):
+
+Introduction: Briefly introduce the purpose of the Configuration Management system within KaneAI.
+
+Goals and Objectives: Clearly state the primary goal (e.g., simplifying allocation of configurations to test cases and test runs, maintaining application updates).
+
+Feature Breakdown: Identify and define key features that should be included in the configuration management system. Features to be considered:
+
+Configuration types (Desktop, Real Device, Virtual Device).
+
+Parameters for each configuration (OS, OS Version, Browser, Device Name, Application, etc.).
+
+We have KaneAI Test cases with configs: 
+
+Desktop: (OS, OS Version, Browser, Browser Version, Resolution[Default]) 
+
+Real device: (OS, Manufacturer, Device Name, OS version, Application[Optional]) 
+
+We also have Test Manager Test Cases with Configs: 
+
+Desktop: (Same as above) 
+
+Real Device: (Same as above) 
+
+Virtual Device: (OS, Browser, Manufacturer, Device Name, OS version) 
+
+Within real devices, there can be 2 types: Public cloud & Private cloud.
+
+Regular expression structure for selecting Manufacturer, Device Name, and OS version for real devices.
+
+Ability to allocate configurations to test cases and test runs.
+
+Application maintenance (updating and editing applications easily).
+
+User Stories: Write out clear user stories for the main personas (e.g., QA Engineers, Development Managers, etc.).
+
+Challenges: Communicate potential challenges and trade-offs in the design or implementation of the feature (e.g., handling large numbers of configurations, ensuring smooth integration with Test Manager to run test executions (automations).
+
+Prioritization: Decide which features need to be prioritized first (e.g., regular expression structure, allocation system, or application maintenance).
+
+
+Wireframes:
+
+Configuration Management Interface: Provide basic wireframes for the user interface (UI) that allows users to manage configurations. These can be pencil sketches, showing the key elements such as:
+
+A list of existing configurations.
+
+Option to add new configurations (selecting OS, Device, App).
+
+Option to edit or update configurations.
+
+A filter system for easily selecting configurations for test runs.
+
+Application Management: A wireframe for updating and editing application versions within configurations
